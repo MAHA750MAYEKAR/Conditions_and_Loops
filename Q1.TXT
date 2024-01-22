@@ -1,0 +1,20 @@
+Conditional statements in programming are constructs that allow the execution of different code blocks based on certain conditions. These statements enable a program to make decisions and choose different paths of execution depending on whether a given condition is true or false. 
+In JavaScript we have the following conditional statements:
+
+Use if to specify a block of code to be executed, if a specified condition is true
+Use else to specify a block of code to be executed, if the same condition is false
+Use else if to specify a new condition to test, if the first condition is false
+Use switch to specify many alternative blocks of code to be executed
+
+
+
+Syntax
+if (condition1) {
+  //  block of code to be executed if condition1 is true
+} else if (condition2) {
+  //  block of code to be executed if the condition1 is false and condition2 is true
+} else {
+  //  block of code to be executed if the condition1 is false and condition2 is false
+}
+
+
